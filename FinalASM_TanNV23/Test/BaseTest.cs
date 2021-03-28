@@ -18,7 +18,7 @@ namespace FinalASM_TanNV23.Test
         }
 
         // written new line abc 
-        //add new lines
+        // fetch check
 
         public void GetBrowser(string browser)
         {           
