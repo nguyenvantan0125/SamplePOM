@@ -17,7 +17,8 @@ namespace FinalASM_TanNV23.Test
         {         
         }
 
-        // check new line
+        // check merge for dev to master abcerfg erftgs
+
         public void GetBrowser(string browser)
         {           
             this.Driver = drivermanager.ConfigDriver(browser).StartDriver();
