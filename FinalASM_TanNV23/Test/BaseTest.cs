@@ -17,7 +17,7 @@ namespace FinalASM_TanNV23.Test
         {         
         }
 
-        // check merge for dev to master abcerfg erftgs
+        // change on master branch and commit 
 
         public void GetBrowser(string browser)
         {           
