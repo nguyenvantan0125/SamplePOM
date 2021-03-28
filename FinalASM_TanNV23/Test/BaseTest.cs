@@ -17,7 +17,7 @@ namespace FinalASM_TanNV23.Test
         {         
         }
 
-        // check git dev
+        // check git dev dsvs
         public void GetBrowser(string browser)
         {           
             this.Driver = drivermanager.ConfigDriver(browser).StartDriver();
