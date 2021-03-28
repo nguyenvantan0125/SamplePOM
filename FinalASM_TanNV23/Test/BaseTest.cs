@@ -17,11 +17,11 @@ namespace FinalASM_TanNV23.Test
         {         
         }
 
+        // check git dev
         public void GetBrowser(string browser)
         {           
             this.Driver = drivermanager.ConfigDriver(browser).StartDriver();
             this.Driver.Navigate().GoToUrl(this.environmet);
-
         }
 
         public void Dispose()
