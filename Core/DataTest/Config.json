@@ -1,0 +1,90 @@
+{
+  "browser": "Google,Firefox",
+
+  "Environment": [
+    {
+      "WEB": "https://www.saucedemo.com/"
+    }
+  ],
+
+
+  "NegativeUsers": [
+    {
+      "User": "locked_out_user",
+      "Password": "secret_sauce",      
+    }
+  ],
+
+  "PositiveUsers": [
+    {
+      "User ": "standard_user",
+      "Password": "secret_sauce",
+      "first name": "Tan 1",
+      "Last Name": "nguyen 1",
+      "ZipCode": 7000
+    },
+    {
+      "User": "problem_user",
+      "Password": "secret_sauce",
+      "first name": "Tan 1",
+      "Last Name": "nguyen 1",
+      "ZipCode": 7000
+    },
+    {
+      "User": "performance_glitch_user",
+      "Password": "secret_sauce",
+      "first name": "Tan 1",
+      "Last Name": "nguyen 1",
+      "ZipCode": 7000
+    }
+
+  ],
+
+  "Users": [
+    {
+      "standard": [
+        {
+          "User ": "standard_user",
+          "Password": "secret_sauce",
+          "first name": "Tan 1",
+          "Last Name": "nguyen 1",
+          "ZipCode": 7000
+        }
+      ]
+    },
+    {
+      "problem": [
+        {
+          "User": "problem_user",
+          "Password": "secret_sauce",
+          "first name": "Tan 1",
+          "Last Name": "nguyen 1",
+          "ZipCode": 7000
+        }
+      ]
+    },
+    {
+      "performance": [
+        {
+          "User": "performance_glitch_user",
+          "Password": "secret_sauce",
+          "first name": "Tan 1",
+          "Last Name": "nguyen 1",
+          "ZipCode": 7000
+        }
+      ]
+
+    }
+  ],
+
+
+  "Information": [
+    {
+      "first name": "Tan 1",
+      "Last Name": "nguyen 1",
+      "ZipCode": 7000
+    }
+
+  ]
+}
+
