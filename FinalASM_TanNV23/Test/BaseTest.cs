@@ -17,7 +17,7 @@ namespace FinalASM_TanNV23.Test
         {         
         }
 
-        // check new line
+        // written new line 
         public void GetBrowser(string browser)
         {           
             this.Driver = drivermanager.ConfigDriver(browser).StartDriver();
