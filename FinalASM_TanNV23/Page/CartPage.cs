@@ -34,7 +34,7 @@ namespace FinalASM_TanNV23.Page
             this.CheckOut.Click();
             return this;
         }
-
+        public void Test() { }
         public CartPage FillInformation(string firstname, string lastname, string zipcode)
         {
             this.FirstnameTxtBox.SendKeys(firstname);

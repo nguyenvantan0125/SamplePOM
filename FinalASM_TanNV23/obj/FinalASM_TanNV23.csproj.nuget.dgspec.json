@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "E:\\FSOFT\\git\\FinalASM_TanNV23\\FinalASM_TanNV23.csproj": {}
+    "D:\\APP\\SamplePOM\\FinalASM_TanNV23\\FinalASM_TanNV23.csproj": {}
   },
   "projects": {
-    "E:\\FSOFT\\git\\Core\\Core.csproj": {
+    "D:\\APP\\SamplePOM\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\FSOFT\\git\\Core\\Core.csproj",
+        "projectUniqueName": "D:\\APP\\SamplePOM\\Core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "E:\\FSOFT\\git\\Core\\Core.csproj",
-        "packagesPath": "C:\\Users\\nguye\\.nuget\\packages\\",
-        "outputPath": "E:\\FSOFT\\git\\Core\\obj\\",
+        "projectPath": "D:\\APP\\SamplePOM\\Core\\Core.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "D:\\APP\\SamplePOM\\Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\nguye\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,6 +26,7 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -37,6 +38,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
@@ -82,21 +84,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\FSOFT\\git\\FinalASM_TanNV23\\FinalASM_TanNV23.csproj": {
+    "D:\\APP\\SamplePOM\\FinalASM_TanNV23\\FinalASM_TanNV23.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\FSOFT\\git\\FinalASM_TanNV23\\FinalASM_TanNV23.csproj",
+        "projectUniqueName": "D:\\APP\\SamplePOM\\FinalASM_TanNV23\\FinalASM_TanNV23.csproj",
         "projectName": "FinalASM_TanNV23",
-        "projectPath": "E:\\FSOFT\\git\\FinalASM_TanNV23\\FinalASM_TanNV23.csproj",
-        "packagesPath": "C:\\Users\\nguye\\.nuget\\packages\\",
-        "outputPath": "E:\\FSOFT\\git\\FinalASM_TanNV23\\obj\\",
+        "projectPath": "D:\\APP\\SamplePOM\\FinalASM_TanNV23\\FinalASM_TanNV23.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "D:\\APP\\SamplePOM\\FinalASM_TanNV23\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\nguye\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -108,9 +110,10 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "E:\\FSOFT\\git\\Core\\Core.csproj": {
-                "projectPath": "E:\\FSOFT\\git\\Core\\Core.csproj"
+              "D:\\APP\\SamplePOM\\Core\\Core.csproj": {
+                "projectPath": "D:\\APP\\SamplePOM\\Core\\Core.csproj"
               }
             }
           }
@@ -123,6 +126,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "ExtentReports": {
               "target": "Package",
@@ -180,7 +184,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
         }
       }
     }
